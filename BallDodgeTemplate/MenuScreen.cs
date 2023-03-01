@@ -19,6 +19,7 @@ namespace BallDodgeTemplate
 
         private void easyButton_Click(object sender, EventArgs e)
         {
+            Form1.ChangeScreen(this, new GameScreen());
             
         }
 
